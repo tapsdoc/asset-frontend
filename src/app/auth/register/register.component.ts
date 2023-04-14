@@ -10,7 +10,8 @@ import {AuthService} from "../../service/auth.service";
 })
 export class RegisterComponent implements OnInit {
 
-  constructor(public authService: AuthService) { }
+  registrationForm: FormGroup = this.authService.registrationForm;
+  constructor(private authService: AuthService) { }
 
   ngOnInit(): void {
   }
