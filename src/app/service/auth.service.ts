@@ -4,9 +4,6 @@ import {map, Observable} from "rxjs";
 import {Router} from "@angular/router";
 import {MatSnackBar} from "@angular/material/snack-bar";
 import {FormBuilder, FormGroup, Validators} from "@angular/forms";
-import {environment} from "../../../environment";
-
-const api = environment.api;
 
 @Injectable({
   providedIn: 'root'
